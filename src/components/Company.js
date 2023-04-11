@@ -32,7 +32,8 @@ function Company(props){
                     </p>
                 </div>
 
-                <EditCompany 
+                {props.editCompany}
+                {/* <EditCompany 
                     key={props.key}
                     id={props.id} 
                     oib={props.oib} 
@@ -46,7 +47,7 @@ function Company(props){
                     closed={props.closed}
                     logo={props.logo}
                     updateCompany={props.updateCompany}
-                />
+                /> */}
 
             </div>
         </div>
