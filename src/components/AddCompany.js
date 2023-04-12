@@ -20,8 +20,8 @@ function AddCompany(props) {
 
   return (
     <>
-        <div className="mt-2">
-            <button onClick={handleShow} className="block m-2 mx-auto shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
+        <div>
+            <button onClick={handleShow} className="block mx-auto shadow bg-purple-500 hover:bg-purple-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded">
                         + Add Company
             </button>
         </div>

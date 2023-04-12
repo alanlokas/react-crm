@@ -121,9 +121,9 @@ function Companies() {
   }
 
   return (
-    <div className="App bg-slate-200 min-h-screen">
+    <div>
       <AddCompany newCompany={newCompany} />
-      <div className='flex flex-wrap justify-center my-2'>
+      <div className='flex flex-wrap justify-center'>
         {company.map((company) => {
           const editCompany = (
               <EditCompany 
