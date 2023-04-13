@@ -1,18 +1,14 @@
 import './App.css';
-import Companies from './pages/Companies';
-import Header from './components/Header';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Hero from './components/Hero';
+import NavbarApp from './components/NavbarApp';
+import React from 'react';
 
 function App() {
           return (
-            <BrowserRouter>
-              <Header>
-                <Routes>
-                  <Route path="/Companies" element={<Companies />} />
-                  {/* <Route path="/Team" element={<Companies />} /> */}
-                </Routes>
-              </Header>
-            </BrowserRouter>
+            <div className='bg-[#000300]'>
+                <NavbarApp />
+                <Hero />
+            </div>
           );
 }
 
